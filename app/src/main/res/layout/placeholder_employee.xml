@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="15dp">
+
+    <View
+        android:id="@+id/name_plc"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:background="#dddddd" />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="15dp"
+        android:background="#dddddd"
+        android:layout_alignParentEnd="true"/>
+
+    <View
+        android:id="@+id/address_plc"
+        android:layout_width="250dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="15dp"
+        android:background="#dddddd"
+        android:layout_below="@id/name_plc"/>
+
+    <View
+        android:id="@+id/phone_plc"
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="15dp"
+        android:background="#dddddd"
+        android:layout_below="@id/address_plc"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="35dp"
+        android:background="#dddddd"
+        android:layout_below="@+id/phone_plc"/>
+
+</RelativeLayout>
